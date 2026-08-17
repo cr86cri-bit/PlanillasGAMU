@@ -1,0 +1,29 @@
+.solo-lectura {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.oculto {
+  display: none !important;
+}
+
+.alinear-derecha {
+  text-align: right;
+}
+
+.texto-suave {
+  color: var(--color-texto-suave);
+}
+
+.ancho-completo {
+  width: 100%;
+}
+
+.separador {
+  height: 1px;
+  background: var(--color-borde);
+}

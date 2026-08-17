@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "sistema-planillas-gamu",
+  "main": "./worker/index.js",
+  "compatibility_date": "2026-08-17",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sistema-planillas-gamu",
+      "database_id": "35124dee-9457-4f3e-a685-082f9dc5d0f9",
+      "migrations_dir": "./cloudflare/migrations"
+    }
+  ],
+  "vars": {
+    "SESSION_COOKIE_NAME": "gamu_sesion"
+  }
+}

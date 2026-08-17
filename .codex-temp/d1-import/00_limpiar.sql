@@ -1,0 +1,15 @@
+DELETE FROM "resultados_marcaciones";
+DELETE FROM "asistencias_diarias";
+DELETE FROM "marcaciones_originales";
+DELETE FROM "importaciones_excel";
+DELETE FROM "periodos_asistencia";
+DELETE FROM "registros_horas_extra";
+DELETE FROM "excepciones_funcionario";
+DELETE FROM "feriados";
+DELETE FROM "asignaciones_horario_funcionario";
+DELETE FROM "funcionarios";
+DELETE FROM "marcaciones_esperadas";
+DELETE FROM "reglas_dia_horario";
+DELETE FROM "plantillas_horario";
+DELETE FROM "cargos";
+DELETE FROM "unidades";

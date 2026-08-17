@@ -1,0 +1,53 @@
+@media (max-width: 1080px) {
+  .grilla-resumen {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  .estructura {
+    grid-template-columns: 1fr;
+  }
+
+  .barra-lateral {
+    position: static;
+    width: auto;
+    height: auto;
+    transform: none;
+  }
+
+  .barra-lateral--abierta {
+    transform: none;
+  }
+
+  .barra-lateral__navegacion {
+    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  }
+
+  .encabezado {
+    padding: 0 16px;
+  }
+
+  .pagina {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .panel-ingreso {
+    padding: 24px;
+  }
+
+  .pagina__cabecera,
+  .formulario__fila {
+    grid-template-columns: 1fr;
+  }
+
+  .pagina__cabecera {
+    display: grid;
+  }
+
+  .grilla-resumen {
+    grid-template-columns: 1fr;
+  }
+}

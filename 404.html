@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirigiendo | Sistema de Asistencia GAMU</title>
+    <script>
+      const ruta = window.location.pathname.replace(/\/$/, "");
+      const base = ruta.includes("/") ? ruta.slice(0, ruta.lastIndexOf("/") + 1) : "/";
+      window.location.replace(`${base}#/inicio`);
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo al sistema...</p>
+  </body>
+</html>

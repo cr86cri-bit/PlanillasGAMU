@@ -1,0 +1,9 @@
+INSERT OR REPLACE INTO "plantillas_horario" ("id_horario","nombre","tipo","alcance","id_unidad","descripcion","activo","fecha_creacion","fecha_actualizacion") VALUES
+('098fdaf1-1155-46d9-a5c5-e4f1097594b3','Serenos','HORARIO_CONTINUO','INDIVIDUAL',NULL,'Serenos: turno nocturno de 19:00 a 07:00.',1,'2026-08-17T07:06:39.447Z','2026-08-17T07:06:39.447Z'),
+('4aba7b8b-5d2f-4a87-a9e1-9bb38d1f94ce','Terminal de buses - turno manana','HORARIO_CONTINUO','INDIVIDUAL',NULL,'Terminal de buses: turno de 07:00 a 15:00.',1,'2026-08-17T07:06:39.447Z','2026-08-17T07:06:39.447Z'),
+('4caa2abb-af34-4cd9-9286-b830fd55bc28','Administrativo','REGULAR','GENERAL',NULL,'Lunes a viernes con dos entradas y dos salidas.',1,'2026-08-17T04:38:43.179Z','2026-08-17T04:38:43.179Z'),
+('526649be-bfc4-4db6-b0b3-be54c58d455a','Horario continuo configurable','HORARIO_CONTINUO','INDIVIDUAL',NULL,'Plantilla base para horarios continuos individuales.',1,'2026-08-17T04:38:43.179Z','2026-08-17T04:38:43.179Z'),
+('6282d315-b83d-4b2e-8c14-e14a328a335f','Terminal de buses - turno noche','HORARIO_CONTINUO','INDIVIDUAL',NULL,'Terminal de buses: turno de 23:00 a 07:00.',1,'2026-08-17T07:06:39.447Z','2026-08-17T07:06:39.447Z'),
+('80673e29-827c-4db6-93e5-d05eb2617e9f','Recoleccion de basura','RECOLECCION_BASURA','INDIVIDUAL',NULL,'Recoleccion: lunes y viernes 05:00 a 13:00; martes y jueves 06:00 a 14:00.',1,'2026-08-17T04:38:43.179Z','2026-08-17T07:06:39.447Z'),
+('ad05368f-90cb-4540-8d25-d694ce531b05','Limpieza','LIMPIEZA','INDIVIDUAL',NULL,'Limpieza: 04:00 a 08:30 y 14:30 a 18:30.',1,'2026-08-17T04:38:43.179Z','2026-08-17T07:06:39.447Z'),
+('c6e65d74-1361-4607-8194-f3117f48be7c','Terminal de buses - turno tarde','HORARIO_CONTINUO','INDIVIDUAL',NULL,'Terminal de buses: turno de 15:00 a 23:00.',1,'2026-08-17T07:06:39.447Z','2026-08-17T07:06:39.447Z');
